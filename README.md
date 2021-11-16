@@ -1,16 +1,9 @@
-# startup_moshe
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Student name - Moshe shababo
+1. The class that is used to implement the controller pattern in this library is SnappingSheetController. SnappingSheetController can be used by the developer to:
+* set the snapping sheet's current position by pixels.
+* snap the snapping sheet to a given SnappingPosition.
+* stop an in progress snapping.
+* know if a snapping is in progress.
+* know the current position.
+2. The parameter that controls the type of animation that will be displayed is snappingCurve in the SnappingPosition.factor constructor.
+3. InkWll produces ripple effect when you tap or long tap the widget below it, while GestureDetector does not. In comparison to InkWell, GestureDetector provides control over a larger range of gestures.
